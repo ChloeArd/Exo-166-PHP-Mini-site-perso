@@ -11,12 +11,13 @@ html {
 body {
 	text-align: center;
 	font-family: Calibri, serif;
-	background: lightblue;
+	background: #edefef;
+	color: white;
 }
 header, footer {
 	margin: 0;
 	padding: 0;
-	background: cyan;
+	background: #29a5ee;
 }
 footer {
 	position: absolute;
@@ -34,13 +35,38 @@ li {
 }
 a {
 	text-decoration: none;
+	color: white;
 }
 section, form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	color: grey;
 }
 section h1 {
 	margin: 8px;
+}
+h1{
+	font-size: 40px;
+}
+
+input{
+	border-radius: 10px 10px;
+	border: white;
+	margin: 10px 0;
+	padding: 5px;
+	color: #29a5ee;
+}
+
+#containerContact{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#send{
+	background-color: #29a5ee;
+	color: white;
 }

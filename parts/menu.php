@@ -1,5 +1,5 @@
 <ul>
-    <li><a href="../public/index.php?page=bio">Bio</a></li>
-    <li><a href="../public/index.php?page=contact">Contact</a></li>
-    <li><a href="../public/index.php">Home Page</a></li>
+    <li><a href="../pages/bio.php">Bio</a></li>
+    <li><a href="../pages/contact.php">Contact</a></li>
+    <li><a href="../pages/home.php">Home Page</a></li>
 </ul>

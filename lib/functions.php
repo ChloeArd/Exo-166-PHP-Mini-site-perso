@@ -20,6 +20,25 @@ function getContent() {
     }
 }
 
+function getUserData() {
+    $file = file_get_contents('../data/user.json');
+    $message = json_decode($file);
+    foreach ($message as $key){
+        if(is_array($key)) {
+            foreach ($key as $index2) {
+                foreach ($index2 as $index3 => $index4) {
+                    echo $index4."<br>";
+                }
+            }
+        }
+        else {
+            echo $key."<br>";
+        }
+    }
+
+}
+
+
 function getPart($name) {
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
