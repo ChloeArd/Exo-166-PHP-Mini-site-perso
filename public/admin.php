@@ -1,5 +1,4 @@
 <?php
-$from      = trim($_POST["email"]);
-$message = htmlentities(trim($_POST["message"]));
-echo "De : ".$from;
-echo "Le message : ".$message;
+$jsonMessage = file_put_contents("../data/last_message.json");
+$message = json_decode($jsonMessage);
+echo $message;
