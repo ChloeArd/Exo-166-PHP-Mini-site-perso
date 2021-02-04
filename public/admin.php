@@ -1,4 +1,6 @@
 <?php
-$jsonMessage = file_put_contents("../data/last_message.json");
+$jsonMessage = file_get_contents("../data/last_message.json");
 $message = json_decode($jsonMessage);
-echo $message;
+foreach ($message as $valueMessage) {
+    echo "Le message est : ".$valueMessage;
+}

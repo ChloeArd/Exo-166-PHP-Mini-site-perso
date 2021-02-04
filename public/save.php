@@ -16,5 +16,7 @@ if (isset($_POST["email"], $_POST["message"])){
 
 header('Location: admin.php');
 
-$jsonMessage = file_put_contents("../data/last_message.json", $_POST);
-json_encode($jsonMessage);
+$arrayMessage = array($message);
+
+$jsonEncode = json_encode($arrayMessage);
+file_put_contents("../data/last_message.json", $jsonEncode);
