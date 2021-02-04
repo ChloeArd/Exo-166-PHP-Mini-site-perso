@@ -20,4 +20,7 @@
         </form>
     </div>
 
+    <span> My number : 07 32 14 00 00</span>
+    <span>My Email : jane.doe@gmail.com</span>
+    <span>My adress : 18 street Buenoweb in Kinder</span>
 </section>

@@ -132,7 +132,7 @@ form {
 	align-items: flex-start;
 	padding: 30px  200px;
 	margin: 20px;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 	background-color: white;
 }
 
@@ -158,4 +158,9 @@ i{
 
 .profil {
 	color: rebeccapurple;
+}
+
+span {
+	font-size: 30px;
+	color: #D3D2D1;
 }
