@@ -35,7 +35,6 @@ function getUserData() {
             echo $key."<br>";
         }
     }
-
 }
 
 
